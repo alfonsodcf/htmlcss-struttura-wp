@@ -1,0 +1,57 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: arial
+}
+
+.clearfix::after{
+    content: '' ;
+    display: table;
+    clear: both;
+}
+
+div{
+    margin: 20px auto;
+}
+
+.margine{
+    width: 80%;
+    
+}
+
+.intestatura{
+    height: 100px;
+    background-color: pink;
+    
+}
+
+.p1{
+    height: 500px;  
+    background-color: rgb(194, 162, 120);
+}
+
+.p2{
+    height: 700px;  
+    background-color: rgb(120, 161, 194);
+
+}
+.topcard{
+    height: 15%;
+}
+
+.card{
+    width: 60%;
+    float: left;
+    border: 10px solid rgb(25, 0, 255);
+    height: 80%; 
+}
+
+.card.card-side{
+    width: 20%;
+}
+
+.boot{
+    height: 50px; 
+    background-color: blueviolet;
+}
